@@ -1,0 +1,245 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: cornsilk;
+}
+
+
+section.classtypes {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    font-family: "Playfair Display";
+    color: black;
+    text-align: center;
+}
+
+.classtypes h2 {
+    font-size: 2.5rem;
+    opacity: .75;
+    padding-top: 2rem;
+}
+
+.classtypes h2:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+    font-family: "Playfair Display";
+}
+
+/* Navigation */
+
+.header {
+    height: 80px;
+    position:fixed;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    border-bottom: 1px solid gray;
+    top: 0;
+    z-index: 3;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    color: white;
+    margin-right: 1rem;
+}
+
+.nav li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    text-decoration: underline;
+}
+
+.nav li:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+header {
+    background-image: url("./resources/olivia-bauso-6LMRstrUWUE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.words {
+    padding-left: 2rem;
+    font-family: "Playfair Display";
+}
+
+/* Classes */
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class {
+    width: 300px;
+    min-height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#reformer {
+    background-image: url("./resources/ash-hayes-7ZqTVG_vyy8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#yin {
+    background-image: url("./resources/kike-vega-F2qh3yjz6Jk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#barre {
+    background-image: url("./resources/nathaniel-vala-57ITAJmZFzs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 5;
+}
+
+#HIIT {
+    background-image: url("./resources/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.class:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+/*Team */
+.team h2 {
+    font-size: 2.5rem;
+    opacity: .75;
+    font-family: "Playfair Display";
+    color: black;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.team h2:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teammate {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.teammate:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+#spoonan {
+    background-image: url("./resources/carl-barcelo-nqUHQkuVj3c-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#obuccini {
+    background-image: url("./resources/dane-wetton-t1NEMSm1rgI-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bgenovese {
+    background-image: url("./resources/tabitha-turner-qtr0Lw4fMGc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#amoran {
+    background-image: url("./resources/patrick-malleret-p-v1DBkTrgo-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#agenovese {
+    background-image: url("./resources/francois-olwage-qwmYDYRTMEw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Contact */
+
+section.contact {
+    margin-top: 40px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact .map {
+    height: auto;
+    flex-grow: 2;
+}
+
+.contact .content {
+    width: 280px;
+    padding: 0 200px;
+    margin: 20px 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkgrey;
+    height: 40px;
+    width: 100%;
+    padding-top: 5px;
+}
